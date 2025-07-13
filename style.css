@@ -1,0 +1,121 @@
+/* Reset * /
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing:border box;
+}
+
+/* Global Styles */
+body {
+font-family: Arial; sans-serif;
+line-height: 1.7;
+background: #fff;
+  
+}
+.container h1{
+  background-color: black;
+  color: yellow ;
+  font-size: 70pix;
+  max-width: 100%;
+  margin: auto;
+  
+}
+/* Book list container styling */
+.book-list {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Header styling */
+.book-list h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 20px;
+  background-color: gray;
+  max-width: 100%;
+}
+
+.semester-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.semester-content h2 {
+  text-align: center;
+  color: #222;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* Remove default bullet */
+.semester-list {
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* List item spacing */
+.semester-list li {
+  margin: 10px 0;
+}
+
+/* Stylish links */
+.semester-list a {
+  display: block;
+  background-color: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+.semester-list a:hover {
+  background-color: #005cbf;
+  transform: scale(1.03);
+}
+ p {
+   color:yellow;
+   font-size:40px;
+ }
+.subject-list{
+  list-style: none;
+  padding: 0;
+}
+
+.subject-list li {
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-left: 5px solid #007bff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.subject-list li:hover {
+  background-color: #e6f0ff;
+  transform: translateX(5px);
+  cursor: pointer;
+}
+ footer h3 {
+   background-color: black;
+   color:yellow ;
+   font-size: 20px;
+   max-width: 100%;
+   margin: auto;
+   text-align-last: center;
+ }
